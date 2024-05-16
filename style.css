@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-section {
+    height: 50vh;
+    background-image: linear-gradient(rgba(23, 23, 26, 0.5), rgba(17, 17, 20, 0.5)), url("./handyman.jpeg");
+    background-size: cover;
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10%;
+}
+
+.title {
+    font-size: 3vw;
+    text-shadow: 1px 1px 2px black;
+}
+
+.info-text {
+    font-size: 1.5vw;
+    width: 45vw;
+}
+
+.cta-button {
+    height: 10vh;
+    width: 15vw;
+    border-radius: 10px;
+    background: #292724;
+    color: antiquewhite;
+    font-size: 1vw;
+    padding: 0.25rem;
+}
+
+.about-section {
+    margin-top: 5vh;
+    display: flex;
+    padding: 10%;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.sub-heading {
+    font-size: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sub-text {
+    font-size: 1vw;
+    width: 45vw;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    color: #292724;
+}
+
+.learn-btn {
+    height: 10vh;
+    width: 15vw;
+    border-radius: 10px;
+    border: 3px solid #292724;
+    background: none;
+    color: #292724;
+    font-size: 1vw;
+    padding: 0.25rem;
+}
+
+.about-img {
+    width: 100%;
+    background-image: url("./about-image.jpeg");
+    background-size: cover;
+    height: 60vh;
+}
+
+.review-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    height: 25vh;
+    color: antiquewhite;
+    background: #292724;
+}
+
+.review-text {
+    font-size: 3vw;
+}
+
+.review-signature {
+    font-size: 1vw;
+}
+
+.services-section {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 1vh 1vw 1vh;
+    height: 100%;
+    padding: 5%;
+}
+
+.card-img {
+    height: 40vh;
+    background-size: cover;
+}
+
+.card-btn {
+    height: 10vh;
+    width: 15vw;
+    border-radius: 10px;
+    border: 3px solid #292724;
+    background: none;
+    color: #292724;
+    font-size: 1vw;
+    padding: 0.25rem;
+}
